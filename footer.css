@@ -1,0 +1,19 @@
+footer {
+    margin: 20px 0px 15px;
+    color: #000;
+}
+
+footer>a {
+    color: #000;
+}
+
+footer>a:hover {
+    color: lightgreen;
+}
+
+button:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: 0.8s ease;
+}

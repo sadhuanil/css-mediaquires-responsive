@@ -1,0 +1,55 @@
+@media screen and (max-width :992px) {
+    .sub-container>h3 {
+        display: none;
+    }
+
+    .sub-container>h1 {
+        text-wrap-mode: nowrap;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width :600px) {
+    .sub-container {
+        position: absolute;
+        left: 50%;
+        top: 38%;
+        transform: translate(-50%, -50%);
+        /* width: 350px; */
+        /* height: 200px; */
+        border: 1px solid #ccc;
+        letter-spacing: 4px;
+        padding: 12px 24px;
+        color: #f1f1f1;
+        font-size: 14px;
+    }
+
+    .sub-container1 {
+        display: none;
+    }
+
+    .sub-container1-1 {
+        display: block;
+    }
+
+    .sub-container1-1 a:hover {
+        border-radius: 0px;
+    }
+
+    .sub-container2 {
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width :187px) {
+    .sub-container {
+        top: 15%;
+
+    }
+
+    .sub-container1-1 {
+        display: inline-flex;
+        flex-direction: column;
+        text-align: start;
+    }
+}
